@@ -1,8 +1,16 @@
 class paIIC;
+struct ByteArr;
 
 #ifndef __PAIIC_H__
 #define __PAIIC_H__
-#include "paCoreBase.h"
+#include "./paCoreBase.h"
+struct ByteArr
+{
+    uint16_t len;
+    uint8_t *arrPtr;
+    ByteArr(uint16_t len, uint8_t *ptr) : len(len), arrPtr(ptr) {}
+    ByteArr() {}
+};
 
 class paIIC
 {
@@ -20,7 +28,7 @@ public:
      * @param length   数据体长度，可以为0
      * @param data_t   数据体指针
      */
-    uint8_t writeLen(unsigned char iicId, unsigned char addr, unsigned char length, unsigned char *data_wr);
+    uint8_t writeLen(unsigned char iicId, unsigned char addr, unsigned char length, ByteArr data_wr[]);
 };
 extern paIIC _G_paIIC;
 
