@@ -1,3 +1,5 @@
+class paIIC;
+
 #ifndef __PAIIC_H__
 #define __PAIIC_H__
 #include "paCoreBase.h"
