@@ -9,7 +9,7 @@ private:
 public:
     // void write();
     paErr init(char spiId);
-    paErr Atransmit(char spiId, unsigned char *data, unsigned int len);
+    paErr transmit(char spiId, unsigned char *data, unsigned int len);
 
     // void receive();
 };
