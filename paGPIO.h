@@ -1,6 +1,6 @@
 #ifndef __PAGPIO_H__
 #define __PAGPIO_H__
-
+#include "paBase/_ForCore.h"
 class paGPIO
 {
 private:

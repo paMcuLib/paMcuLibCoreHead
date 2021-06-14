@@ -3,14 +3,8 @@ struct ByteArr;
 
 #ifndef __PAIIC_H__
 #define __PAIIC_H__
-#include "./paCoreBase.h"
-struct ByteArr
-{
-    uint16_t len;
-    uint8_t *arrPtr;
-    ByteArr(uint16_t len, uint8_t *ptr) : len(len), arrPtr(ptr) {}
-    ByteArr() {}
-};
+
+#include "paBase/_ForCore.h"
 
 class paIIC
 {

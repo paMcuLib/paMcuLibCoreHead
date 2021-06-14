@@ -1,5 +1,6 @@
 #ifndef __PABASE_H__
 #define __PABASE_H__
+#include "paBase/paBaseForCore"
 
 class paBase
 {
