@@ -2,7 +2,7 @@
 #define __PABASE_H__
 #include "paBase/_ForUser.h"
 
-#include "paCoreSrc/_paBase.Inline_inc.h"
+#include "paCoreSrc/_paBase.Inline.inc.h"
 
 class paBase
 {
