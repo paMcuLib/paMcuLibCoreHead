@@ -1,6 +1,6 @@
 #ifndef __PABASE_H__
 #define __PABASE_H__
-#include "paBase/_ForUser.h"
+#include "paBase/_ForCore.h"
 
 #include "paCoreSrc/_paBase.Inline.inc.h"
 
