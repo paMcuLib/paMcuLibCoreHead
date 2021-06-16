@@ -1,6 +1,6 @@
 #ifndef __PASPI_H__
 #define __PASPI_H__
-#include "paBase/_ForCore.h"
+#include "../base/_all.h"
 
 class paSPI
 {

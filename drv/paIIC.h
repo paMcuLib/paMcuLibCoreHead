@@ -4,7 +4,7 @@ struct ByteArr;
 #ifndef __PAIIC_H__
 #define __PAIIC_H__
 
-#include "paBase/_ForCore.h"
+#include "../base/_all.h"
 
 class paIIC
 {

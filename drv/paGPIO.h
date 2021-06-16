@@ -1,6 +1,6 @@
 #ifndef __PAGPIO_H__
 #define __PAGPIO_H__
-#include "paBase/_ForCore.h"
+#include "../base/_all.h"
 //inline 函数所需头文件
 #include "_paGPIO.types.h"
 #include "paCoreSrc/_paGPIO.inline.inc.h"
